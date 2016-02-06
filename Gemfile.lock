@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    data_types (1.0.0)
     httpclient (2.6.0.1)
     string-utility (2.4.1)
 
@@ -8,8 +9,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  data_types
   httpclient (= 2.6.0.1)
   string-utility (>= 2.4.0)
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
