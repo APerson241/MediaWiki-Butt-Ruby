@@ -1,0 +1,30 @@
+---------------------------------- Method: #initialize (MediaWiki::Butt)
+                                     (Defined in: lib/mediawiki/butt.rb)
+
+    butt.initialize(url, opts = {}) -> Butt 
+------------------------------------------------------------------------
+
+    Creates a new instance of MediaWiki::Butt. your wiki configuration.
+    the various query methods. In other words, if you pass a limit
+    parameter to the valid query methods, it will use that, otherwise,
+    it will use this. Defaults to 500. 
+
+Parameters:
+-----------
+
+    (String) url - The FULL wiki URL. api.php can be omitted, but it will
+    make harsh assumptions about
+
+    (Hash<Symbol, Any>) opts - The options hash for configuring this
+    instance of Butt.
+
+Options Hash (opts):
+--------------------
+
+    (String) :custom_agent - A custom User-Agent to use. Optional.
+
+    (Fixnum) :query_limit_default - The query limit to use if no limit
+    parameter is explicitly given to
+
+
+
